@@ -12,16 +12,18 @@ body {
   width: 100vw;
   height: 100vh;
   min-width: 320px;
+  min-height: 700px;
 }
 .header {
   position: fixed;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: baseline;
   top: 0;
   color: var(--textmenucolor);
   font-family: "Rubik", sans-serif;
   font-size: 16px;
+  height: 110;
 }
 .logo {
   width: 155px;
@@ -30,10 +32,16 @@ body {
   top: 10px;
 }
 .nav {
+  display: inline;
+  position: relative;
+  top: 10px;
+  z-index: 3;
 }
 .main {
   background-color: var(--mainbackgroundcolor);
   display: block;
+  position: relative;
+  top: 110px;
 }
 .h1 {
   font-family: "Rubik", sans-serif;
