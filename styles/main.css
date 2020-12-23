@@ -10,13 +10,33 @@
 }
 body {
   width: 100vw;
+  height: 100vh;
+  min-width: 320px;
 }
 .header {
   position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   top: 0;
   color: var(--textmenucolor);
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+}
+.logo {
+  width: 155px;
+  /*background-color: darkgreen; /* quitar antes de subir*/
+  position: relative;
+  top: 10px;
+}
+.nav {
 }
 .main {
   background-color: var(--mainbackgroundcolor);
-  font: var(--maintextcolor);
+  display: block;
+}
+.h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  color: #ffffff;
 }
