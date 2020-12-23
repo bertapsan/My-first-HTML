@@ -18,16 +18,17 @@ body {
   position: fixed;
   display: flex;
   flex-direction: column;
-  align-items: baseline;
+  align-items: center;
   top: 0;
   color: var(--textmenucolor);
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   height: 110;
+  z-index: 1000;
 }
 .logo {
   width: 155px;
-  /*background-color: darkgreen; /* quitar antes de subir*/
+  display: inline;
   position: relative;
   top: 10px;
 }
